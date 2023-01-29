@@ -5,13 +5,11 @@ correct_number = 66
 guess_count = 1
 
 while guess != correct_number:
-  guess = int(input("What order is to be executed?: "))
-  guess_count += 1
-  
+  guess_count += 1 
   if guess < correct_number:
-    guess = int(input("Not enough clankers. Try again:"))
+      print ("Not enough clankers. Try again:")
   else:
-    guess = int(input("Is there such a thing as overkill? Try again:"))
+    print ("Is there such a thing as overkill? Try again:")
     
 print("Executing order 66. Start running, Jedi scum...")
 
