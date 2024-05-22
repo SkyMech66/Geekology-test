@@ -36,6 +36,6 @@ while guess != correct_number:
             guess_count += 1
             guess = int(input("What order is to be executed?: "))
 
-print("Executing order 66. Start running, Jedi scum...")    
+print("Good Soldiers follow orders, executing order 66. Start running, Jedi scum...")    
 print(f"It took you {guess_count} attempts.")
 # Finally got this after a year! Got to keep expanding it.
