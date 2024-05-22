@@ -5,19 +5,27 @@ correct_number = 66
 guess_count = 1
 
 while guess != correct_number:
-guess = int(input("What order is to be executed?: "))
-guess_count += 1
-  if guess == 69
-  print("Really? So uncivilized.")
-  guess_count += 1
-  if guess < correct_number:
-  guess_count += 1
-  print ("Not enough clankers. Try again:")
-  guess = int(input("What order is to be executed?: "))
+    if guess == 69:
+        print("Really? So uncivilized.")
+        guess_count += 1
+        guess = int(input("What order is to be executed?: "))
+    if guess < correct_number:        
+        print ("Not enough clankers. Try again:")
+        guess_count += 1
+        guess = int(input("What order is to be executed?: "))
 
-    elif guess_count > correct_nuber
-    print ("Is there such a thing as overkill? Try again:")
+    elif guess > correct_number:
+        if guess in [420 , 666]:
+            print(" No, Anakin.")
+            guess = int(input("What order is to be executed?: "))
+            guess_count += 1
+        else:
+            print ("Is there such a thing as overkill? Try again:")
+            guess_count += 1
+            guess = int(input("What order is to be executed?: "))
+
     
-    
-print("Executing order 66. Start running, Jedi scum...")
+
+print("Executing order 66. Start running, Jedi scum...")    
 print(f"It took you {guess_count} attempts.")
+# Finally got this after a year!
