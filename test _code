@@ -1,41 +1,40 @@
+# Modify to years and phrases. Include answer for years.
 print ("Geekology test")
-
 guess = int(input("What order is to be executed?: "))
 correct_number = 66
 guess_count = 1
 
 while guess != correct_number:
-    if guess == 69:
-        print("Really? So uncivilized.")
-        guess_count += 1
-        guess = int(input("What order is to be executed?: "))
     if guess < correct_number:        
         print ("Not enough clankers. Try again:")
         guess_count += 1
         guess = int(input("What order is to be executed?: "))
 
     elif guess > correct_number:
-        if guess in [420 , 666]:
-            print(" No, Anakin.")
-            guess = int(input("What order is to be executed?: "))
-            guess_count += 1
-        if guess == 88:
-            print("Curious, who is this crazed Doctor and why the obsession of this velocity?")
-            guess = int(input("What order is to be executed?: "))
-            guess_count += 1
-        if guess == 2012:
+        if guess in [420, 666]:
+            print("No, Anakin.")
+        elif guess == 88:
+            print("Curious, who is this crazed Doctor and why the obsession with this velocity?")
+        elif guess == 2012:
             print(" it would appear the cultist were wrong.")
-            guess = int(input("What order is to be executed?: "))
-            guess_count += 1
-        if guess == 2042:
+        elif guess == 2042:
             print("You owe eddies, Choom.")
-            guess = int(input("What order is to be executed?: "))
-            guess_count += 1
+        elif guess == 5:
+            print("Need more input, Johnny.")
+        elif guess == 5555:
+            print("This is the end. Forget the mission. Oh, nightmare. I'm free")
+        elif guess == 1963:
+            print("“There must be no regrets, no tears, no anxieties. Just go forward in all your beliefs, and prove to me that I am not mistaken in mine.”-The first Doctor")
+        elif guess == 1966:
+            print("To explore strange new worlds.To seek out new life and new civilizations,To boldly go where no man has gone before.")
+        elif guess == 69:
+            print("Really? So uncivilized.")
         else:
             print ("Is there such a thing as overkill? Try again:")
-            guess_count += 1
-            guess = int(input("What order is to be executed?: "))
+        guess_count += 1
+        guess = int(input("What order is to be executed?: "))
 
 print("Good Soldiers follow orders, executing order 66. Start running, Jedi scum...")    
 print(f"It took you {guess_count} attempts.")
+
 # Finally got this after a year! Got to keep expanding it.
