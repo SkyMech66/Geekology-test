@@ -19,13 +19,23 @@ while guess != correct_number:
             print(" No, Anakin.")
             guess = int(input("What order is to be executed?: "))
             guess_count += 1
+        if guess == 88:
+            print("Curious, who is this crazed Doctor and why the obsession of this velocity?")
+            guess = int(input("What order is to be executed?: "))
+            guess_count += 1
+        if guess == 2012:
+            print(" it would appear the cultist were wrong.")
+            guess = int(input("What order is to be executed?: "))
+            guess_count += 1
+        if guess == 2042:
+            print("You owe eddies, Choom.")
+            guess = int(input("What order is to be executed?: "))
+            guess_count += 1
         else:
             print ("Is there such a thing as overkill? Try again:")
             guess_count += 1
             guess = int(input("What order is to be executed?: "))
 
-    
-
 print("Executing order 66. Start running, Jedi scum...")    
 print(f"It took you {guess_count} attempts.")
-# Finally got this after a year!
+# Finally got this after a year! Got to keep expanding it.
